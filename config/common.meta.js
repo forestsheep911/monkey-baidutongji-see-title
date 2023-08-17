@@ -9,7 +9,7 @@ module.exports = {
   license: pj.license,
   match: ['https://tongji.baidu.com/*'],
   require: [],
-  'run-at': 'document-idle',
+  'run-at': 'document-start',
   supportURL: pj.bugs.url,
   homepage: pj.homepage,
   grant: ['GM_xmlhttpRequest'],
