@@ -1,6 +1,6 @@
 {
   "name": "monkey-baidutongji-see-title",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "write description here",
   "main": "./main.js",
   "scripts": {
