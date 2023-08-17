@@ -1,5 +1,5 @@
 {
-  "name": "monkey-xxx-xxx",
+  "name": "monkey-see-tongji-title",
   "version": "0.0.1",
   "description": "write description here",
   "main": "./main.js",
@@ -47,5 +47,7 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
 }
