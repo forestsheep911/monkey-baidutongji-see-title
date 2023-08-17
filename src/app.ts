@@ -8,12 +8,7 @@ const app = () => {
         const regExp = /<title>(.*)<\/title>/
         const ed = regExp.exec(document)
         if (ed && ed.length >= 1) {
-          // remove last 10 characters from ed[1]
-          let edd = ed[1].substring(0, ed[1].length - 23)
-          if (edd === '') {
-            edd = '空'
-          }
-          ae.textContent = edd
+          ae.textContent = ed[1]
           ae.setAttribute('cd', '1')
         }
       },
